@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco em JS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <table>
+            <th>TABELA DO CHURRAS</th>
+            <tr><td>ITEM</td>
+                <td>POR ADULTO</td>
+                <td>POR CRIANÇA</td>
+            </tr>
+            <tr>
+                <td>Carne</td>
+                <td>400g</td>
+                <td>200g</td>
+            </tr>
+            <tr>
+                <td>Acompanhamentos</td><td>200g</td><td>200g</td></tr>
+            <tr>
+                <td>Cerveja</td><td>2l</td><td>--</td></tr>
+            <tr>
+                <td>Refrigerante</td><td>500ml</td><td>500ml</td></tr>
+            <tr>
+                <td>Água</td>
+                <td>400ml</td>
+                <td>400ml</td>
+            </tr>
+        </table>
+
+    </main>    
+    
+    <br>
+
+    <div>
+    <form action="">
+        <h2>Adultos</h2>
+            <input type="number" name="adultoAlcolatra" value="0" min="0" max="99">
+            <label for="adultoAlcolatra">Consomem bebiba alcoólica</label>
+            <input type="number" name="adultoNaoAlcolatra" value="0" min="0" max="99>
+            <labefor="adultoNaoAlcolatra">Não consomem bebiba alcoólica</label>    
+        <h2>Crianças</h2>
+            <input type="number" name="crianças" value="0" min="0" max="99">
+            <label for="crianças">Quantidade da criançada</label>
+    </div>
+    <br>
+    <div>
+        <h3>Resultado</h3>
+            <label class="conteúdo" id="Carne" name="Carne">Carne:</label><br>
+            <label class="conteúdo" id="Acompanhamentos" name="Acompanhamentos">Acompanhamentos:</label><br>
+            <label class="conteúdo" id="Cerveja" name="Cerveja">Cerveja:</label><br>
+            <label class="conteúdo" id="Refrigerante" name="Refrigerante">Refrigerante:</label><br>
+            <label class="conteúdo" id="Água" name="Água">Água:</label><br>
+        </div>
+    </form>
+</body>
+</html>
